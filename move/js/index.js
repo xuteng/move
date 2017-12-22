@@ -80,10 +80,10 @@ var option = {
 var mySwiper
 var audio1 = document.getElementById("train")
 var audio2 = document.getElementById("bg")
+audio1.onended = function(){
+	audio2.play()
+}
 $(document).ready(function() {
-	audio1.onended = function(){
-		audio2.play()
-	}
 	//图片预加载
     var _all = $(".wrapper").find("*"),_arr = [],t_img,isLoad = true,rg = new RegExp("url"),_imgs = $(".wrapper").find("img"),
         fn = function(){ 
@@ -92,6 +92,7 @@ $(document).ready(function() {
         };
     //TODO 环境变量
     var _pathIndex = window.location.href.lastIndexOf('/')+1;
+
 
     _all.each(function(){
         if(rg.test($(this).css("background-image"))){
