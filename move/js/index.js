@@ -148,12 +148,11 @@ function init(){
 		});
 	})
 }
-//必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效 
 document.addEventListener("WeixinJSBridgeReady", function () { 
     audio1.play(); 
 	setTimeout(function(){
 		audio1.pause()
-		audio2.pause()
+		$(audio1).remove()
 		audio2.play()
 	},2000)
 }, false); 
