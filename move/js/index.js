@@ -139,6 +139,7 @@ function init(){
 	},500)
 	setTimeout(function(){
 		audio1.pause()
+		audio2.pause()
 		audio2.play()
 	},2000)
 	$('.egg').click(function(){
@@ -152,7 +153,9 @@ document.addEventListener("WeixinJSBridgeReady", function () {
     audio1.play(); 
 	setTimeout(function(){
 		audio1.pause()
+		audio2.pause()
 		audio2.play()
 	},2000)
 }, false); 
+
 
