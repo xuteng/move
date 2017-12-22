@@ -29,14 +29,14 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 .container{
 	overflow:hidden;
 	width: 100vw;
-	height:100%;
+	height:100vh;
 }
 .move-bg{
 	overflow:hidden;
 	background: url(images/bg.jpg) no-repeat 0 0;
 	background-size: auto 46%;
 	width: 100vw;
-	height:100%;
+	height:100vh;
 	-webkit-animation:bg 50s linear  infinite forwards;
 	        animation:bg 50s linear  infinite forwards;
 }
@@ -47,9 +47,8 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	background: url(images/bg1.jpg) no-repeat 0 0 #3d3f42;
 	background-size: 100% auto;
 	width: 100vw;
-	height:100%;
+	height:100vh;
 	position: relative;
-	overflow:hidden;
 }
 .f-logo{
 	position: absolute;
@@ -392,7 +391,6 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	left:0;
 	width: 100%;
 	display: block;
-	z-index:100;
 }
 .s42{
 	width: .703125rem;
@@ -642,7 +640,6 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 .end{
 	background: url(images/80.jpg) no-repeat;
 	background-size: cover;
-	overflow:hidden;
 }
 .end .main{
 	position: absolute;
