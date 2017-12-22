@@ -391,6 +391,7 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	left:0;
 	width: 100%;
 	display: block;
+	z-index:100;
 }
 .s42{
 	width: .703125rem;
