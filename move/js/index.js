@@ -1,3 +1,4 @@
+var interval = null
 var option = {
 	on: {
 		slideChange: function() {
@@ -11,9 +12,12 @@ var option = {
 						$('.s22-1').addClass('active')
 						$('.s22').addClass('active')
 						$('.s25').addClass('active')
-						$('.s27').addClass('active')
-						setTimeout(function() {
+						clearInterval(interval)
+						interval = setInterval(function() {
 							$('.s24').addClass('active')
+							setTimeout(function(){
+								$('.s24').removeClass('active')
+							},700)
 						}, 2000)
 
 					})();
@@ -27,7 +31,7 @@ var option = {
 				case 3:
 					(function() {
 						$('.s42-1').addClass('active')
-						$('.s41').addClass('active')
+						$('.s48').addClass('active')
 					})();
 					break;
 				case 4:
@@ -39,9 +43,6 @@ var option = {
 				case 5:
 					(function() {
 						$('.s62-1').addClass('active')
-						setTimeout(function() {
-							$('.s63').addClass('active')
-						}, 500)
 					})();
 					break;
 				case 6:
@@ -85,12 +86,19 @@ var option = {
 }
 var mySwiper
 var audio1 = document.getElementById("train")
-var audio2 = document.getElementById("bg")
 audio1.onended = function(){
 	this.src = 'audio/Ragtime Festival (Alternative Version).mp3'
 	this.play();
 }
 $(document).ready(function() {
+	$('#kg').on('click',function(){
+		$(this).toggleClass('off')
+		if($(this).hasClass('off')){
+			audio1.pause();
+		}else{
+			audio1.play()
+		}
+	})
 	//图片预加载
     var _all = $(".wrapper").find("*"),_arr = [],t_img,isLoad = true,rg = new RegExp("url"),_imgs = $(".wrapper").find("img"),
         fn = function(){ 

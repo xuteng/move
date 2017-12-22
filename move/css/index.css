@@ -281,8 +281,8 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	right: 1.484375rem;
 	bottom: 6.125rem;
 	width: 0.3125rem;
-	height: 1.25rem;
-	background: url(images/s25.png) no-repeat;
+	height: 2.02rem;
+	background: url(images/s25.png) no-repeat left center;
 	background-size: 100%;
 	z-index: 300;
 	opacity: 0;
@@ -300,8 +300,6 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	background: url(images/s27.png) no-repeat;
 	background-size: 100%;
 	z-index: 500;
-	-webkit-transform: translate3d(-1000px,0,0);
-	        transform: translate3d(-1000px,0,0);
 }
 .s27.active{
 	-webkit-animation:slideInLeft .8s linear 1s forwards;
@@ -419,6 +417,13 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
     left: .625rem;
     bottom: 3rem;
     z-index: 500;
+    opacity: 0;
+
+}
+.s48.active{
+	opacity: 1;
+	-webkit-animation:zoomIn .4s linear forwards;
+	        animation:zoomIn .4s linear forwards;
 }
 .s46{
 	width: 2.34375rem;
@@ -558,7 +563,7 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
     left: 1.5625rem;
     bottom: 7.03125rem;
     z-index: 500;
-    opacity: 0;
+    opacity: 1;
 }
 .s63.active{
     -webkit-animation:bounceInUp .6s linear forwards;
@@ -613,9 +618,9 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	width: 2.390625rem;
 	display: block;
 	position: absolute;
-    right: 1.59375rem;
-    bottom: 6.84375rem;
-    z-index: 640;
+	right: 0;
+	bottom: 5.84375rem;
+	z-index: 640;
 }
 .s73{
 	width: 3.25rem;
@@ -769,6 +774,21 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
+}
+.kg{
+	position: absolute;
+	top:0.375rem;
+	right:.4375rem;
+	width: .703125rem;
+	height: .703125rem;
+	z-index: 10000;
+	cursor: pointer;
+	background: url(images/m1.png) no-repeat;
+	background-size: contain
+}
+.kg.off{
+	background: url(images/m2.png) no-repeat;
+	background-size: contain
 }
 @-webkit-keyframes bg{  
 	0%{background-position:0 0;} 
