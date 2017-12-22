@@ -82,6 +82,7 @@ var audio1 = document.getElementById("train")
 var audio2 = document.getElementById("bg")
 audio1.onended = function(){
 	this.setAttribute('src','audio/Ragtime Festival (Alternative Version).mp3')
+	this.play();
 }
 $(document).ready(function() {
 	//图片预加载
