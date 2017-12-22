@@ -81,7 +81,7 @@ var mySwiper
 var audio1 = document.getElementById("train")
 var audio2 = document.getElementById("bg")
 audio1.onended = function(){
-	audio2.play()
+	this.setAttribute('src','audio/Ragtime Festival (Alternative Version).mp3')
 }
 $(document).ready(function() {
 	//图片预加载
@@ -92,7 +92,6 @@ $(document).ready(function() {
         };
     //TODO 环境变量
     var _pathIndex = window.location.href.lastIndexOf('/')+1;
-
 
     _all.each(function(){
         if(rg.test($(this).css("background-image"))){
@@ -150,8 +149,7 @@ function init(){
 }
 //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效 
 document.addEventListener("WeixinJSBridgeReady", function () { 
-    audio1.play(); 
+    audio1.play();
 }, false); 
-
 
 
