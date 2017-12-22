@@ -125,10 +125,12 @@ $(document).ready(function() {
     isImgLoad(fn);
 });
 var mySwiper
+var audio1 = document.getElementById("train")
+var audio2 = document.getElementById("bg")
 function init(){
 	$(".loading").addClass('hide');
 	mySwiper = new Swiper('.container',option)
-	document.getElementById("train").play()
+	audio1.play()
 	$('.train').addClass('out');
 	$('.text-wrapper').addClass('active');
 	setTimeout(function(){
@@ -136,8 +138,8 @@ function init(){
 
 	},500)
 	setTimeout(function(){
-		document.getElementById("train").pause()
-		document.getElementById("bg").play()
+		audio1.pause()
+		audio2.play()
 	},2000)
 	$('.egg').click(function(){
 		$('.mask').slideDown('300', function() {
@@ -145,3 +147,12 @@ function init(){
 		});
 	})
 }
+//必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效 
+document.addEventListener("WeixinJSBridgeReady", function () { 
+    audio1.play(); 
+	setTimeout(function(){
+		audio1.pause()
+		audio2.play()
+	},2000)
+}, false); 
+
