@@ -8,7 +8,8 @@ var option = {
 					break;
 				case 1:
 					(function() {
-						$('.s22').addClass('active').hide().show()
+						$('.s22-1').addClass('active')
+						$('.s22').addClass('active')
 						$('.s25').addClass('active')
 						$('.s27').addClass('active')
 						setTimeout(function() {
@@ -19,21 +20,25 @@ var option = {
 					break;
 				case 2:
 					(function() {
+						$('.s32-1').addClass('active')
 						$('.s36').addClass('active')
 					})();
 					break;
 				case 3:
 					(function() {
+						$('.s42-1').addClass('active')
 						$('.s41').addClass('active')
 					})();
 					break;
 				case 4:
                     (function() {
+                    	$('.s51').addClass('active')
                         $('.s52').addClass('active')
                     })();
                     break;
 				case 5:
 					(function() {
+						$('.s62-1').addClass('active')
 						setTimeout(function() {
 							$('.s63').addClass('active')
 						}, 500)
@@ -42,6 +47,7 @@ var option = {
 				case 6:
 					(function() {
 						setTimeout(function() {
+							$('.s72-1').addClass('active')
 							$('.s72').addClass('active')
 						}, 200)
 						setTimeout(function() {
@@ -81,7 +87,7 @@ var mySwiper
 var audio1 = document.getElementById("train")
 var audio2 = document.getElementById("bg")
 audio1.onended = function(){
-	this.setAttribute('src','audio/Ragtime Festival (Alternative Version).mp3')
+	this.src = 'audio/Ragtime Festival (Alternative Version).mp3'
 	this.play();
 }
 $(document).ready(function() {
@@ -152,5 +158,3 @@ function init(){
 document.addEventListener("WeixinJSBridgeReady", function () { 
     audio1.play();
 }, false); 
-
-
