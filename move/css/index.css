@@ -778,18 +778,12 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	100% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
 @-webkit-keyframes lights62{  
-	0%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
-	25%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
-	50%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
-	70%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
-	100% {background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+	0%,100%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	50%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
 }
 @keyframes lights62{  
-	0%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
-	25%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
-	50%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
-	70%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
-	100% {background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+	0%,100%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	50%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
 }
 @-webkit-keyframes lights72{  
 	0%{background: url(images/s721.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
