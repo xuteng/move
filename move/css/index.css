@@ -240,11 +240,13 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	height: 7.9375rem;
 	background: url(images/s221.png) no-repeat;
 	background-size: 100%;
+	z-index: 100;
+}
+.s22-1.active{
 	-webkit-transform-origin:bottom center;
 	        transform-origin:bottom center;
 	-webkit-animation:lights22 2s infinite linear;
 	        animation:lights22 2s infinite linear;
-	z-index: 100;
 }
 .s22-2{
 	-webkit-animation:lights21 2s infinite linear;
@@ -376,11 +378,13 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	height: 9.140625rem;
 	background: url(images/s321.png) no-repeat;
 	background-size: 100%;
+	z-index: 600;
+}
+.s32-1.active{
 	-webkit-transform-origin:bottom center;
 	        transform-origin:bottom center;
 	-webkit-animation:lights32 2s infinite linear;
 	        animation:lights32 2s infinite linear;
-	z-index: 600;
 }
 .slide4{
 	background-color:#ff9631;
@@ -458,11 +462,13 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	height: 8.609375rem;
 	background: url(images/s471.png) no-repeat;
 	background-size: 100%;
+	z-index: 600;
+}
+.s42-1.active{
 	-webkit-transform-origin:bottom center;
 	        transform-origin:bottom center;
 	-webkit-animation:lights42 2s infinite linear;
 	        animation:lights42 2s infinite linear;
-	z-index: 600;
 }
 
 .s51{
@@ -478,6 +484,12 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	-webkit-animation:lights51 2s infinite linear;
 	        animation:lights51 2s infinite linear;
 	z-index: 600;
+}
+.s51.active{
+	-webkit-transform-origin:bottom center;
+	        transform-origin:bottom center;
+	-webkit-animation:lights51 2s infinite linear;
+	        animation:lights51 2s infinite linear;
 }
 .slide5{
 	background-color:#6b8fb6;
@@ -561,11 +573,13 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	height: 8.609375rem;
 	background: url(images/s621.png) no-repeat;
 	background-size: 100%;
+	z-index: 600;
+}
+.s62-1.active{
 	-webkit-transform-origin:bottom center;
 	        transform-origin:bottom center;
 	-webkit-animation:lights62 2s infinite linear;
 	        animation:lights62 2s infinite linear;
-	z-index: 600;
 }
 .s75{
 	width: 100%;
@@ -631,11 +645,14 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	height: 9.5625rem;
 	background: url(images/s721.png) no-repeat;
 	background-size: 100%;
+	z-index: 600;
+}
+
+.s72-1.active{
 	-webkit-transform-origin:bottom center;
 	        transform-origin:bottom center;
 	-webkit-animation:lights72 2s infinite linear;
 	        animation:lights72 2s infinite linear;
-	z-index: 600;
 }
 .end{
 	background: url(images/80.jpg) no-repeat;
