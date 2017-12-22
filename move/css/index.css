@@ -769,21 +769,33 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	0%{-webkit-transform: translateX(-100%);transform: translateX(-100%);} 
 	100% {-webkit-transform: translateX(100%);transform: translateX(100%);}
 }
-
+@-webkit-keyframes lights22{  
+	0%{background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s222.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s222.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+}
 @keyframes lights22{  
-	0%{-webkit-transform: rotate(0);transform: rotate(0)} 
-	25%{-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
-	50%{-webkit-transform: rotate(1deg);transform: rotate(1deg)}
-	70%{-webkit-transform: rotate(3deg);transform: rotate(3deg)}
-	100% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+	0%{background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s222.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s222.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s221.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
 @-webkit-keyframes lights62{  
-	0%,100%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
-	50%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	0%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
 @keyframes lights62{  
-	0%,100%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
-	50%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	0%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s622.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s621.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
 @-webkit-keyframes lights72{  
 	0%{background: url(images/s721.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
@@ -799,13 +811,19 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	70%{background: url(images/s722.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
 	100% {background: url(images/s721.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
-
+@-webkit-keyframes lights32{  
+	0%{background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s322.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s322.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+}
 @keyframes lights32{  
-	0%{-webkit-transform: rotate(0);transform: rotate(0)} 
-	25%{-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
-	50%{-webkit-transform: rotate(1deg);transform: rotate(1deg)}
-	70%{-webkit-transform: rotate(3deg);transform: rotate(3deg)}
-	100% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+	0%{background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
+	25%{background: url(images/s322.png) no-repeat;background-size: 100%;-webkit-transform: rotate(-4deg);transform: rotate(-4deg)}
+	50%{background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(1deg);transform: rotate(1deg)}
+	70%{background: url(images/s322.png) no-repeat;background-size: 100%;-webkit-transform: rotate(3deg);transform: rotate(3deg)}
+	100% {background: url(images/s321.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0deg);transform: rotate(0deg)}
 }
 @-webkit-keyframes lights42{  
 	0%{background: url(images/s471.png) no-repeat;background-size: 100%;-webkit-transform: rotate(0);transform: rotate(0)} 
