@@ -8,7 +8,7 @@ var option = {
 					break;
 				case 1:
 					(function() {
-						$('.s22').addClass('active')
+						$('.s22').addClass('active').hide().show()
 						$('.s25').addClass('active')
 						$('.s27').addClass('active')
 						setTimeout(function() {
