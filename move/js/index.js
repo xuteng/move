@@ -114,7 +114,6 @@ $(document).ready(function() {
 			if(_url.indexOf('fade')!=-1){
 				return
 			}
-			console.log(_url)
             var _img = new Image();
             _url = _url.replace(/url\(|\)/g,"");
             _url = _url.replace(/\"/g,"");
