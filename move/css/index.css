@@ -663,6 +663,7 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 .end{
 	background: url(images/80.jpg) no-repeat;
 	background-size: cover;
+	overflow: hidden;
 }
 .end .main{
 	position: absolute;
@@ -676,8 +677,9 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	position: absolute;
 	width: 5.53125rem;
 	display: block;
-	bottom: .25rem;
+	bottom: 1.390625rem;
 	right:0;
+	z-index: 600;
 }
 .end .hua{
 	right:initial;
@@ -693,6 +695,31 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
     z-index: 640;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+}
+.s85{
+	width: 3.5625rem;
+	display: block;
+	position: absolute;
+    right:0;
+    bottom:.953125rem;
+    z-index: 340;	
+}
+.end .l{
+	left:initial;
+	right:3.3125rem;
+}
+.end .f-zhou{
+	left:initial;
+	right: 2rem;
+
+}
+.end .r{
+	right:1.59375rem;
+	left:initial;
+}
+.end .e{
+	left: initial;
+	right:-0.9625rem;
 }
 .egg{
 	position: absolute;
