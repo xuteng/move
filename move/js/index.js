@@ -110,7 +110,8 @@ $(document).ready(function() {
 
     _all.each(function(){
         if(rg.test($(this).css("background-image"))){
-            var _url = $(this).css("background-image");
+			var _url = $(this).css("background-image");
+			console.log(_url)
             var _img = new Image();
             _url = _url.replace(/url\(|\)/g,"");
             _url = _url.replace(/\"/g,"");
