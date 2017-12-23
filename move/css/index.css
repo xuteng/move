@@ -628,7 +628,7 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	position: absolute;
     right: .625rem;
     bottom: 4.875rem;
-    z-index: 650;
+    z-index: 630;
 }
 .s72.active,.s73.active {
     -webkit-animation: shake .4s 1;
