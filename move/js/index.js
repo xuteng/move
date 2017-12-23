@@ -100,7 +100,7 @@ $(document).ready(function() {
 		}
 	})
 	//图片预加载
-    var _all = $(".wrapper").find("*"),_arr = [],t_img,isLoad = true,rg = new RegExp("url"),_imgs = $(".wrapper").find("img"),
+    var _all = $(".container").find("*"),_arr = [],t_img,isLoad = true,rg = new RegExp("url"),_imgs = $(".container").find("img"),
         fn = function(){ 
         	$(".loading").addClass('hide');
 			init();
