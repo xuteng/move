@@ -157,7 +157,6 @@ function init(){
 	$('.text-wrapper').addClass('active');
 	setTimeout(function(){
 		$('.hua:first').addClass('active')
-
 	},500)
 	$('.egg').click(function(){
 		$('.mask').slideDown('300', function() {

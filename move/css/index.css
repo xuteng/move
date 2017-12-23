@@ -114,8 +114,8 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	background: url(images/lun.png) no-repeat;
 	background-size:100%; 
 	z-index: 400;
-	-webkit-animation:circle 3s linear;
-	        animation:circle 3s linear;
+	-webkit-animation:circle 3s linear infinite;
+	        animation:circle 3s linear infinite;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
 }
@@ -128,8 +128,8 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	background: url(images/zhou.png) no-repeat;
 	background-size:100%; 
 	z-index: 405;
-	-webkit-animation:circleZ 3s linear;
-	        animation:circleZ 3s linear;
+	-webkit-animation:circleZ 3s linear infinite;
+	        animation:circleZ 3s linear infinite;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
 }
