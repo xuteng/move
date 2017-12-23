@@ -618,9 +618,10 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	width: 2.390625rem;
 	display: block;
 	position: absolute;
-	right: 0;
-	bottom: 5.84375rem;
+	right: .5rem;
+	bottom: 5.94375rem;
 	z-index: 640;
+	transform: scale(.8);
 }
 .s73{
 	width: 3.25rem;
@@ -742,6 +743,7 @@ body{min-width:320px;line-height:1.5;font-family:Arial,Helvetica,STHeiTi,sans-se
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
+	overflow: hidden;
 	background-color: #23d3d1
 }
 .l-bg{

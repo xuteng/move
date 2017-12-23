@@ -144,7 +144,7 @@ $(document).ready(function() {
             isLoad = true;
             t_img = setTimeout(function(){
                 isImgLoad(callback);
-            },1000);
+            },500);
         }
     }
     isImgLoad(fn);
