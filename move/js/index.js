@@ -123,7 +123,8 @@ $(document).ready(function() {
     });
     _imgs.each(function(){
     	//TODO 环境变量
-        var _url = window.location.href.substring(0,_pathIndex)+$(this).attr("src");
+		//var _url = window.location.href.substring(0,_pathIndex)+$(this).attr("src");
+        var _url = $(this).attr("src");
         var _img = new Image();
         _img.src=_url;
         _arr.push(_img);
